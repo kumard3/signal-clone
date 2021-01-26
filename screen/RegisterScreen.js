@@ -1,11 +1,12 @@
 import React from 'react'
+import { KeyboardAvoidingView } from 'react-native'
 import { StyleSheet, Text, View } from 'react-native'
 
-const RegisterScreen = () => {
+const RegisterScreen = ({navigation}) => {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <KeyboardAvoidingView behavior="padding" style={styles.container}>
+        
+        </KeyboardAvoidingView>
     )
 }
 
